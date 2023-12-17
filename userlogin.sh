@@ -5,9 +5,11 @@
 # purpose:  user login tracker
 user_login (){
 last
-     echo "This is my login history"
+     echo $1
+     echo $2
+     echo $3
 }
 
-user_login
-user_login
-user_login
+user_login "This is my login history"
+user_login "I am the only user."
+user_login "This took forevery to figure out"
